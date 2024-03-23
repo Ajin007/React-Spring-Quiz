@@ -16,8 +16,8 @@ import io.jsonwebtoken.security.Keys;
 
 @Service
 public class JwtToken {
-
-    private String EKey = "lkndYWIbyLG5oHVhV2E0Qx1xwz6ELnct";
+    // use H256 based key 
+    private String EKey = "EbeEsh7VhXpHMAkLz7Xb3TYm7a4KLMlYn0Kr1NJEhTIOeU9HJsv3t2bMa5OjoiaD";
     // 7 Days
     // private int Duration = 604800000;
     private int Duration = 60 * 60 * 60 * 24 * 7;
